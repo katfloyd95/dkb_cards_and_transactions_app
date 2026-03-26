@@ -1,3 +1,5 @@
+# See Solution Below!
+
 # Cards & Transactions Overview – Frontend Exercise
 
 This exercise is a small frontend application that simulates a banking-style overview page.
@@ -87,3 +89,45 @@ Please provide:
   * what you would improve with more time
 
 The goal of this exercise is to understand your technical decisions and development approach when implementing a real feature.
+
+# Solution Summary
+
+## Wireframes
+
+<img width="602" height="894" alt="Bildschirmfoto 2026-03-26 um 19 00 10" src="https://github.com/user-attachments/assets/523f205d-54ba-4e8c-abbb-0881f274ebdb" />
+
+<img width="500" height="642" alt="Bildschirmfoto 2026-03-26 um 19 00 26" src="https://github.com/user-attachments/assets/1ede7fd6-1b3c-42f2-9edb-721b62d161a6" />
+
+<img width="612" height="491" alt="Bildschirmfoto 2026-03-26 um 19 00 38" src="https://github.com/user-attachments/assets/f6365cac-0c47-440a-a020-857f32750fe8" />
+
+### Styling was inspired by TailwindCSS Components to follow best UI/UX patterns
+
+## UI / Mobile View
+
+Desktop:
+<img width="1509" height="779" alt="Bildschirmfoto 2026-03-26 um 19 02 42" src="https://github.com/user-attachments/assets/729e0359-638d-4d1f-9ca6-fd5ab20a432f" />
+
+
+Mobile:
+<img width="484" height="783" alt="Bildschirmfoto 2026-03-26 um 19 02 59" src="https://github.com/user-attachments/assets/5c276c3e-2894-49db-98ce-d1854e72b000" />
+
+## Lighthouse Diagnosis 
+Accessiblity should be improved due to the smaller color contrast ratios
+<img width="228" height="131" alt="Bildschirmfoto 2026-03-26 um 17 10 06" src="https://github.com/user-attachments/assets/e8a00d2b-0569-49a2-8cf8-30eb40109976" />
+
+## Test Report
+
+### Unit/Integration Tests
+
+<img width="967" height="976" alt="Bildschirmfoto 2026-03-26 um 19 07 20" src="https://github.com/user-attachments/assets/a6c1d2bd-d887-43eb-af98-30e7d4474f30" />
+
+### E2E Tests with Playwright
+
+<img width="719" height="135" alt="Bildschirmfoto 2026-03-26 um 19 08 41" src="https://github.com/user-attachments/assets/3187eeb5-ee16-414a-a1af-c1223e094687" />
+
+### If I had more time
+
+1. I would make sure that the Accessibility measurement of the webpage was without errors, and hence find a better color combination for the application.
+2. I would have deployed the app and created a build pipeline.
+3. I would have made the application more scalable. Since all of the transactions will be listed for a certain card at once, this can lead to issues without a Pagination or Virtualisation implementation. I would have created one of these to account for a more scalable solution.
+4. I would make the application more international. For example, I use formatting for Germany when it comes to the price formatting in this app.
