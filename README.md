@@ -92,6 +92,9 @@ The goal of this exercise is to understand your technical decisions and developm
 
 # Solution Summary
 
+Introduction Video:
+https://www.loom.com/share/449aa0cf3a0441b6bf89c87723e23f3d
+
 ## Wireframes
 
 <img width="602" height="894" alt="Bildschirmfoto 2026-03-26 um 19 00 10" src="https://github.com/user-attachments/assets/523f205d-54ba-4e8c-abbb-0881f274ebdb" />
